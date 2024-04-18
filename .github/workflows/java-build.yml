@@ -1,7 +1,8 @@
 name: Java CI with Docker
 
 on:
-  workflow_dsspatch
+  workflow_dispatch:
+  
 
 jobs:
   increment_version:
